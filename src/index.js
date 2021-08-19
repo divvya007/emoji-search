@@ -1,8 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
+import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-import HeaderSearch from "./component/HeaderSearch/index";
+import 
 
 ReactDOM.render(
   <React.StrictMode>
