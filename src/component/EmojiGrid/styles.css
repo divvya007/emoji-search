@@ -1,0 +1,5 @@
+.emoji-grid {
+  display: grid;
+  border: 1px solid brown;
+  grid-template-columns: 20px 20px 20px;
+}
