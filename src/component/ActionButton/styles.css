@@ -1,0 +1,7 @@
+.action-button {
+  cursor: pointer;
+  border-radius: 40%;
+  padding: 8px;
+  margin: 2px;
+  background-color: transparent;
+}

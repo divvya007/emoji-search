@@ -1,12 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-import App from "./App";
 import reportWebVitals from "./reportWebVitals";
+import HeaderSearch from "./component/HeaderSearch/index";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <HeaderSearch />
   </React.StrictMode>,
   document.getElementById("root")
 );
