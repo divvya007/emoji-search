@@ -6,12 +6,12 @@ function HeaderSearch() {
   return (
     <div className="header-search">
       <InputSearchBox />
-      <ActionButton emoji="hello" />
-      <ActionButton />
-      <ActionButton />
-      <ActionButton />
-      <ActionButton />
-      <ActionButton />
+      <ActionButton emoji="❌" />
+      <ActionButton emoji="😻" />
+      <ActionButton emoji="🚖" />
+      <ActionButton emoji="🍔" />
+      <ActionButton emoji="🍎" />
+      <ActionButton emoji="💖" />
     </div>
   );
 }
