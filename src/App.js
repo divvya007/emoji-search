@@ -1,8 +1,11 @@
-function App() {
+function App(props) {
+  const numbers = props.numbers;
+  const listItems = numbers.map((number) => <li>{number}</li>);
   return (
-    <div className="App">
-      <header className="App-header"></header>
-    </div>
+    <ul>
+      key ={listItems.toString()}
+      value={numbers}
+    </ul>
   );
 }
 

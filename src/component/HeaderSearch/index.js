@@ -3,6 +3,7 @@ import ActionButton from "../ActionButton";
 import InputSearchBox from "../InputSearchBox";
 import React, { useState } from "react";
 import EmojiGrid from "../EmojiGrid/index";
+import GridItem from "../GridItem";
 
 function HeaderSearch() {
   const [text, setText] = useState("");
@@ -53,7 +54,9 @@ function HeaderSearch() {
           }}
         />
       </div>
-      <EmojiGrid />
+      <div>
+        <EmojiGrid />
+      </div>
     </div>
   );
 }
