@@ -4,4 +4,9 @@
   padding: 8px;
   margin: 2px;
   background-color: white;
+  font-size: 25px;
+}
+
+.action-button:hover {
+  background-color: rgba(235, 235, 235, 0.781);
 }

@@ -3,7 +3,6 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 import HeaderSearch from "./component/HeaderSearch";
-// import App from "./App.js";
 
 ReactDOM.render(
   <React.StrictMode>

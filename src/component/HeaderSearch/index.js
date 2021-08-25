@@ -3,10 +3,12 @@ import ActionButton from "../ActionButton";
 import InputSearchBox from "../InputSearchBox";
 import React, { useState } from "react";
 import EmojiGrid from "../EmojiGrid/index";
-import GridItem from "../GridItem";
 
 function HeaderSearch() {
   const [text, setText] = useState("");
+  function myFunc() {
+    console.log("hello");
+  }
 
   return (
     <div>
@@ -51,11 +53,12 @@ function HeaderSearch() {
           emoji="💖"
           onClick={() => {
             setText("heart");
+            myFunc();
           }}
         />
       </div>
       <div>
-        <EmojiGrid />
+        <EmojiGrid myFunc={myFunc} />
       </div>
     </div>
   );

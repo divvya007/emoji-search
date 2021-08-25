@@ -1,6 +1,12 @@
 .grid-item {
   font-size: 30px;
-  padding: 5px;
+  padding: 4px;
   text-align: center;
-  border: 1px solid red;
+  cursor: pointer;
+  font-size: 35px;
+  border-radius: 10px;
+}
+
+.grid-item:hover {
+  background-color: rgba(235, 235, 235, 0.781);
 }
