@@ -1,0 +1,8 @@
+.fancy-btn {
+  background-color: transparent;
+  color: rgb(236, 255, 255);
+  font-size: 15px;
+  padding: 5px;
+  border-radius: 8px;
+  cursor: pointer;
+}

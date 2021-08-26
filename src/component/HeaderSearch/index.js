@@ -3,16 +3,15 @@ import ActionButton from "../ActionButton";
 import InputSearchBox from "../InputSearchBox";
 import React, { useState } from "react";
 import EmojiGrid from "../EmojiGrid/index";
+import FancyButton from "../FancyButton/index";
 
 function HeaderSearch() {
   const [text, setText] = useState("");
-  function myFunc() {
-    console.log("hello");
-  }
 
   return (
     <div>
       <div className="header-search">
+        <FancyButton />
         <InputSearchBox
           value={text}
           onChange={(e) => {
@@ -53,7 +52,6 @@ function HeaderSearch() {
           emoji="💖"
           onClick={() => {
             setText("heart");
-            myFunc();
           }}
         />
       </div>
