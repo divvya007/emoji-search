@@ -8,14 +8,16 @@ import FancyButton from "../FancyButton/index";
 function HeaderSearch() {
   const [text, setText] = useState("");
 
+  console.log("t", text);
+
   return (
     <div>
       <div className="header-search">
-        <FancyButton />
+        {/* <FancyButton /> */}
         <InputSearchBox
           value={text}
           onChange={(e) => {
-            setText(e.target.text);
+            setText(e.target.value);
           }}
         />
         <ActionButton
