@@ -1,16 +1,15 @@
 import "./styles.css";
 import emojiList from "./../../Data/emojiList.json";
 import EmojiItem from "./../GridItem/index";
-import React, { useState } from "react";
 
-function EmojiGrid() {
-  const [emojiSymbol, setEmoji] = useState("");
-
+function EmojiGrid(props) {
   return (
     <div className="emoji-grid">
-      {emojiList.map((emoji) => {
-        return <EmojiItem emoji={emoji} key={emoji.title} />;
-      })}
+      {emojiList
+        .filter((emoji) => emoji.keywords.includes(props.searchText))
+        .map((emoji) => {
+          return <EmojiItem emoji={emoji} key={emoji.title} />;
+        })}
     </div>
   );
 }

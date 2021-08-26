@@ -58,7 +58,7 @@ function HeaderSearch() {
         />
       </div>
       <div>
-        <EmojiGrid myFunc={myFunc} />
+        <EmojiGrid searchText={text} />
       </div>
     </div>
   );
