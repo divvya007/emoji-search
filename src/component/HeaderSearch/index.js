@@ -3,7 +3,6 @@ import ActionButton from "../ActionButton";
 import InputSearchBox from "../InputSearchBox";
 import React, { useState } from "react";
 import EmojiGrid from "../EmojiGrid/index";
-import FancyButton from "../FancyButton/index";
 
 function HeaderSearch() {
   const [text, setText] = useState("");
