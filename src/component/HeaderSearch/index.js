@@ -7,12 +7,9 @@ import EmojiGrid from "../EmojiGrid/index";
 function HeaderSearch() {
   const [text, setText] = useState("");
 
-  console.log("t", text);
-
   return (
     <div>
       <div className="header-search">
-        {/* <FancyButton /> */}
         <InputSearchBox
           value={text}
           onChange={(e) => {
